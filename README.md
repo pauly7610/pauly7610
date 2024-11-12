@@ -5,12 +5,6 @@ Hello! I’m Paul Carpenter, a dedicated product manager with three years of exp
 
 Key Projects & Achievements
 
-Xtrct.AI
-
-A task management app focused on task prioritization, productivity analytics, and calendar syncing.
-Integrated user pattern tracking to enhance user experience and productivity insights.
-Architecture promotes modularity for easier maintenance and functionality expansion.
-Leveraged React Native, Anthropic, along with Expo and Yarn.
 
 Influencify AI
 
