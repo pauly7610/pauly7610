@@ -11,12 +11,12 @@ Here, you’ll find projects exploring **LLM applications, AI-powered decisionin
 ### **AI & Predictive Systems**
 - **[User Frustration Detection](https://github.com/pauly7610/user_frustration_detection)** – AI-powered system predicting user friction via **clickstream analysis, rage clicks, and session behavior** to optimize onboarding.
 - **[Uber Surge Prediction](https://github.com/pauly7610/uber_surge_prediction)** – Real-time **surge pricing model** leveraging **machine learning** and **historical demand data** to predict high-demand zones.
-- **Quantum Scanning Technology** – Researching applications of **quantum computing for AI-driven analytics**.
+- **[Quantum Scanning Technology](https://github.com/pauly7610/Quantum-executable)** – Researching applications of **quantum computing for AI-driven analytics**.
 
 ### **Conversational & LLM AI**
 - **[Immersive Conversations](https://github.com/pauly7610/immersive-conversations)** – AI-driven **dialogue generation system** leveraging **LLMs for interactive user experiences**.
-- **Xtrct AI** – AI-powered workflow automation platform integrating **data extraction and smart decisioning models**.
-- **AI Concierge** – Real estate AI assistant providing **personalized property insights, automated scheduling, and NLP-powered support**.
+- **[Xtrct AI](https://github.com/pauly7610/Xtrct.AI)** – AI-powered workflow automation platform integrating **data extraction and smart decisioning models**.
+- **[AI Concierge](https://github.com/pauly7610/ai-concierge)** – Real estate AI assistant providing **personalized property insights, automated scheduling, and NLP-powered support**.
 
 ### **Data-Driven Product Experimentation**
 - **[Cashback Analytics](https://github.com/pauly7610/cashback)** – **Feature adoption and rewards analytics** system optimizing **cashback engagement and user behavior tracking**.
@@ -38,4 +38,3 @@ If you're interested in **AI, predictive analytics, or experimentation**, feel f
 💼 **LinkedIn:** [linkedin.com/in/paul-carpenter](https://linkedin.com/in/paul-carpenter)
 
 🚀 **Let’s build the future of AI-driven products!**
-
