@@ -10,7 +10,8 @@ Here, you’ll find projects exploring **LLM applications, AI-powered decisionin
 
 ### **AI & Predictive Systems**
 - **[User Frustration Detection](https://github.com/pauly7610/user_frustration_detection)** – AI-powered system predicting user friction via **clickstream analysis, rage clicks, and session behavior** to optimize onboarding.
-- **[Uber Surge Prediction](https://github.com/pauly7610/uber_surge_prediction)** – Real-time **surge pricing model** leveraging **machine learning** and **historical demand data** to predict high-demand zones.
+- **[Uber Surge Prediction Front End](https://github.com/pauly7610/uber_surge_prediction)** – Real-time **surge pricing model** leveraging **machine learning** and **historical demand data** to predict high-demand zones.
+- **[Uber Surge Prediction Back End](https://github.com/pauly7610/surge-streamer-backend)** – Real-time **surge pricing model** leveraging **machine learning** and **historical demand data** to predict high-demand zones. 
 - **[Quantum Scanning Technology](https://github.com/pauly7610/Quantum-executable)** – Researching applications of **quantum computing for AI-driven analytics**.
 
 ### **Conversational & LLM AI**
