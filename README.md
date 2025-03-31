@@ -4,6 +4,7 @@ Hi, I’m **Paul Carpenter**, a **Technical Product Manager** passionate about *
 
 Here, you’ll find projects exploring **LLM applications, AI-powered decisioning, and event-driven architectures** to solve real-world challenges.
 
+**[Resume](https://github.com/pauly7610/pauly7610/blob/main/Paul_Carpenter_Resume.pdf).**
 ---
 
 ## 🚀 Featured Projects
