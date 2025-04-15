@@ -24,7 +24,8 @@ Here, you’ll find projects exploring **LLM applications, AI-powered decisionin
 - **[Cashback Analytics](https://github.com/pauly7610/cashback)** – **Feature adoption and rewards analytics** system optimizing **cashback engagement and user behavior tracking**.
 - **API-Driven Insights** – Built integrations for **DoorDash, Lyft, and Instacart**, refining **customer analytics and fulfillment** strategies.
 
----
+### **Gamified Credit Card Rewards**
+- **[Figma](https://www.figma.com/proto/SsIhmYmGpemCzoEFAlo4pO/Chase-the-Points?node-id=92-583&starting-point-node-id=73%3A90).** - **A beautiful and simple experience to understand points**.
 
 ## 🔍 What I Work On
 - **AI-Driven Experimentation & Optimization** – Applying **A/B testing, LLMs, and real-time insights** to refine product experiences.
