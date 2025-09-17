@@ -1,43 +1,92 @@
-# 👋 Welcome to My GitHub!
+👋 AI Product Manager Building the Future of ML Products
+$10M+ ARR growth | Chase → INNOgenius | Scaling ML products from 0→1
 
-Hi, I’m **Paul Carpenter**, a **Technical Product Manager** passionate about **AI, predictive analytics, and data-driven experimentation**. My work spans **Generative AI, user behavior modeling, real-time data processing, and platform optimization**.
+I'm Paul Carpenter, an AI Product Manager who bridges cutting-edge AI capabilities with market-ready products. Currently at INNOgenius building contextual personalization and fintech AI solutions, while seeking senior product management opportunities in AI/ML.
 
-Here, you’ll find projects exploring **LLM applications, AI-powered decisioning, and event-driven architectures** to solve real-world challenges.
----
-**[Resume](https://github.com/pauly7610/pauly7610/blob/main/Paul_Carpenter_Resume.pdf).**
----
+🎯 Core Expertise: Generative AI (LLMs, RAG), MLOps, Event-Driven Architecture
+📈 Track Record: 25% adoption increases, 95% error reduction, $850M+ platform migration
+🤝 Leadership: Cross-functional team alignment across design, engineering, and data teams
 
-## 🚀 Featured Projects
+🚀 Current Focus at INNOgenius (Sept 2024 - Present)
+Contextual Personalization: Delivering AI product strategy that improved user engagement by 40%
 
-### **AI & Predictive Systems**
-- **[User Frustration Detection](https://github.com/pauly7610/user_frustration_detection)** – AI-powered system predicting user friction via **clickstream analysis, rage clicks, and session behavior** to optimize onboarding.
-- **[Uber Surge Prediction Front End](https://github.com/pauly7610/uber_surge_prediction)** – Real-time **surge pricing model** leveraging **machine learning** and **historical demand data** to predict high-demand zones.
-- **[Uber Surge Prediction Back End](https://github.com/pauly7610/surge-streamer-backend)** – Real-time **surge pricing model** leveraging **machine learning** and **historical demand data** to predict high-demand zones. 
-- **[Quantum Scanning Technology](https://github.com/pauly7610/Quantum-executable)** – Researching applications of **quantum computing for AI-driven analytics**.
+Fintech AI Models: Integrating LSTM and ARIMA ML models for surge prediction (18% accuracy improvement)
 
-### **Conversational & LLM AI**
-- **[Immersive Conversations](https://github.com/pauly7610/immersive-conversations)** – AI-driven **dialogue generation system** leveraging **LLMs for interactive user experiences**.
-- **[Xtrct AI](https://github.com/pauly7610/Xtrct.AI)** – AI-powered workflow automation platform integrating **data extraction and smart decisioning models**.
-- **[AI Concierge](https://github.com/pauly7610/ai-concierge)** – Real estate AI assistant providing **personalized property insights, automated scheduling, and NLP-powered support**.
+Event-Driven Architecture: Designing Kafka/Redis systems for low-latency AI features at scale
 
-### **Data-Driven Product Experimentation**
-- **[Cashback Analytics](https://github.com/pauly7610/cashback)** – **Feature adoption and rewards analytics** system optimizing **cashback engagement and user behavior tracking**.
-- **API-Driven Insights** – Built integrations for **DoorDash, Lyft, and Instacart**, refining **customer analytics and fulfillment** strategies.
+Cross-Border Commerce: Building multi-currency AI features for e-commerce marketplace integration
 
-### **Gamified Credit Card Rewards**
-- **[Figma](https://www.figma.com/proto/SsIhmYmGpemCzoEFAlo4pO/Chase-the-Points?node-id=92-583&starting-point-node-id=73%3A90).** - **A beautiful and simple experience to understand points**.
+ML Lifecycle: Creating rapid experimentation frameworks using Hugging Face transformers and OpenAI APIs
 
-## 🔍 What I Work On
-- **AI-Driven Experimentation & Optimization** – Applying **A/B testing, LLMs, and real-time insights** to refine product experiences.
-- **Predictive Analytics & Real-Time Systems** – Using **Kafka, Redis, and event-driven models** to drive **scalable automation**.
-- **Personalization & Onboarding Strategy** – Developing **frictionless user experiences** by leveraging **AI for feature discovery and retention**.
+🔥 Featured Projects
+🏦 Financial AI Observability Platform (https://github.com/pauly7610/fin-observability)
+Enterprise AI monitoring for financial services compliance
 
----
+Built a full-stack observability platform that ensures financial AI systems meet regulatory requirements while maintaining operational excellence.
 
-## 📬 Let’s Connect!
-If you're interested in **AI, predictive analytics, or experimentation**, feel free to explore my projects, contribute, or reach out.
+Key Features:
 
-🔗 **GitHub:** [github.com/pauly7610](https://github.com/pauly7610)  
-💼 **LinkedIn:** [linkedin.com/in/paul-carpenter](https://linkedin.com/in/paul-carpenter)
+Real-time anomaly detection using Isolation Forest and KNN algorithms
 
-🚀 **Let’s build the future of AI-driven products!**
+SEC 17a-4 and FINRA 4511 compliant audit trails with role-based workflows
+
+LangChain-powered agentic AI for automated incident triage and remediation
+
+WebSocket-enabled Next.js dashboards with FastAPI backend architecture
+
+Business Impact: Reduces regulatory compliance overhead while enabling real-time AI system monitoring for risk management.
+
+🎧 Support101
+AI-powered customer support optimization platform (https://github.com/pauly7610/support101)
+
+Developed an intelligent ticketing system that leverages NLP and machine learning to improve support team efficiency and customer satisfaction.
+
+Key Features:
+
+Automated ticket classification and priority routing using NLP
+
+Predictive analytics for resolution time estimation
+
+Real-time sentiment analysis for escalation detection
+
+Integration-ready APIs for existing support workflows
+
+Business Impact: Demonstrates the NLP-powered conversational AI capabilities that achieved 18% resolution accuracy improvement and reduced support costs at Chase.
+
+🔍 What I Work On
+AI-Driven Product Strategy: Translating complex AI capabilities into user-friendly products with measurable business outcomes
+
+Generative AI Solutions: Building LLM-powered features, RAG systems, and conversational AI that scale across enterprise environments
+
+MLOps & Governance: Implementing AI governance frameworks with bias detection, model interpretability, and compliance guardrails
+
+Event-Driven Architecture: Designing real-time systems using Kafka, Redis, and WebSockets for low-latency AI applications
+
+Cross-Functional Leadership: Driving alignment between product, engineering, and data science teams to deliver AI products from 0→1
+
+📊 Recent Highlights
+$10M+ ARR Growth: Scaled ML products through enterprise deployment at Chase
+
+Platform Migration: Directed $850M rewards platform migration increasing utilization 25%
+
+API Optimization: Consolidated event streams reducing errors by 95% across 500K daily transactions
+
+Fintech Innovation: Founded and scaled fintech education platform from MVP to $20K MRR
+
+Mobile Deployment: Delivered rental platform across 3,000 U-Haul branches improving resolution 22%
+
+🛠️ Tech Stack
+AI/ML: LLMs, RAG, LangChain, Transformers, LSTM, NLP, OpenAI APIs, Hugging Face
+Infrastructure: Kafka, Redis, WebSockets, Docker, Kubernetes, AWS, Terraform
+Data & Analytics: Pandas, NumPy, Jupyter, Snowflake, Tableau, Looker, BigQuery
+Observability: OpenTelemetry, Prometheus, Grafana, ITRS Geneos
+Product Tools: Figma, PRDs, OKRs, JTBD, A/B Testing, User Research
+
+📬 Let's Connect!
+Currently exploring senior AI product management opportunities where I can drive AI strategy, build high-impact ML products, and lead cross-functional teams.
+
+🔗 LinkedIn: linkedin.com/in/paul-carpenter
+📧 Email: Paul.Carpenter1040@gmail.com
+📱 Phone: 814-969-8577
+
+🚀 Ready to build the next generation of AI-powered products that deliver real business value.
