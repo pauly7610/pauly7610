@@ -87,6 +87,5 @@ Currently exploring senior AI product management opportunities where I can drive
 
 🔗 LinkedIn: linkedin.com/in/paul-carpenter
 📧 Email: Paul.Carpenter1040@gmail.com
-📱 Phone: 814-969-8577
 
 🚀 Ready to build the next generation of AI-powered products that deliver real business value.
