@@ -87,24 +87,17 @@ Developed full-stack platform for AI-powered anomaly detection in financial tran
 
 ---
 
-### 🔄 [Trading Operations Intelligence](https://github.com/pauly7610/trading-ops-insight)
+### 🔄 [Trading Operations Intelligence MVP](https://github.com/pauly7610/trading-ops-insight)
 **Financial Markets Data Pipeline | TypeScript + Advanced Analytics**
 
 Built sophisticated trading operations platform showcasing financial domain expertise.
 
 ---
 
-### 🎯 [User Frustration Detection](https://github.com/pauly7610/frustration-detection-backend)
+### 🎯 [User Frustration Detection MVP](https://github.com/pauly7610/frustration-detection-backend)
 **Behavioral Analytics & UX Optimization | TypeScript + ML**
 
 Developed AI-powered system for detecting user friction through clickstream analysis.
-
----
-
-### 🏠 [AI Concierge Platform](https://github.com/pauly7610/ai-concierge)
-**Real Estate Intelligence | JavaScript + NLP**
-
-Built AI assistant providing personalized property insights with automated scheduling.
 
 ---
 
