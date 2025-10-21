@@ -2,9 +2,9 @@
 
 **$10M+ ARR growth | 17+ production systems from 0→1 | Enterprise AI platforms with regulatory compliance**
 
-I'm **Paul Carpenter**, a Technical Product Leader who doesn't just strategize—I architect and build enterprise-grade AI systems. 
+I'm **Paul Carpenter**, a Technical Product Leader who doesn't just strategize—I architect and build enterprise-grade AI systems.  
 
-Currently at **INNOgenius** scaling contextual personalization while seeking senior product leadership roles where technical execution meets strategic vision.
+Currently at **INNOgenius**, scaling contextual personalization while seeking senior product leadership roles where technical execution meets strategic vision.
 
 ---
 
@@ -27,174 +27,159 @@ Currently at **INNOgenius** scaling contextual personalization while seeking sen
 Architected ML product strategy delivering 40% user engagement improvement through real-time feature optimization
 
 **Fintech ML Pipeline Architecture**  
-Integrated LSTM and ARIMA models with event-driven architecture (Kafka/Redis) achieving 18% surge prediction accuracy gains
+Integrated LSTM and ARIMA models with event-driven design (Kafka/Redis) achieving 18% surge prediction accuracy gains
 
 **Cross-Border Commerce Platform**  
-Built multi-currency AI features for e-commerce marketplace integration with low-latency requirements
+Built multi-currency AI modules with sub-50ms responsiveness for e-commerce integrations
 
 **ML Lifecycle Infrastructure**  
-Designed rapid experimentation frameworks using Hugging Face transformers and OpenAI APIs with production monitoring
+Created rapid experimentation framework using Hugging Face, OpenAI APIs, and full observability pipelines
 
 ---
 
 ## 🏗️ Featured Engineering & Product Portfolio
 
-### 🧠 [Support Intelligence Core](https://github.com/pauly7610/support101)
-**Enterprise AI Support Platform | Full-Stack Monorepo Architecture**
+### 🧠 [AI Evaluation Platform](https://github.com/pauly7610/ai-evaluation-platform)
+**LLM Evaluation & Observability Suite | Production-Grade AI Quality Platform**
 
-Architected production-ready customer support platform with enterprise compliance, demonstrating senior-level system design and product thinking.
+Architected the most advanced project yet — an enterprise-scale evaluation framework with live metrics, complete SDK coverage, and conversion-first UX.  
 
-**Technical Architecture:**
-- Real-time LangChain RAG with Pinecone vector store and HuggingFace/OpenAI integration
-- Turborepo orchestration with 3 apps: FastAPI backend, React Chrome extension, Next.js chatbot
-- Async PostgreSQL with Alembic migrations and comprehensive CI/CD pipeline
-- GDPR/CCPA endpoints with JWT authentication and role-based audit trails
+**Technical Highlights:**  
+- 23-schema Drizzle ORM design powering multi-tenant architecture  
+- Auth + billing through **Autumn.js** and **better-auth**  
+- Type-safe SDK (`@evalai/sdk`) with **100% API parity** and 40+ TypeScript interfaces  
+- Edge runtime APIs using **Turso + Vercel Edge** for global low-latency evals  
+- Real-time trace capture, annotations, and LLM-as-a-Judge workflows  
+- **Interactive Playground**: demo any AI model in 30s — no signup  
+- **Quality Scoring Engine**: accuracy, safety, cost, latency metrics (0–100 + letter score)
 
-**Product Leadership:**
-- Complete PRD, design system, and architectural decision records
-- Automated testing, linting pipelines, and developer contributor guidelines
-- Production observability with LangSmith, PromptLayer, and OpenTelemetry
-
-**Business Impact:** Demonstrates NLP conversational AI achieving 18% resolution accuracy improvement at Chase
+**Business Impact:**  
+Shows enterprise readiness — feature gating, observability, and automated evaluation cycles used to reduce cost per evaluation by 70%.
 
 ---
 
-### 🏦 [Financial AI Observability Platform](https://github.com/pauly7610/fin-observability) 
-**Regulatory Compliance & Risk Management | Production-Grade Monitoring**
+### 🧠 [Support Intelligence Core](https://github.com/pauly7610/support101)
+**Enterprise AI Support Platform | Full-Stack Monorepo Architecture**
 
-Built comprehensive AI monitoring platform for financial services, showcasing deep regulatory and enterprise architecture expertise.
+Architected production-ready customer support platform with enterprise-grade compliance and observability.  
 
-**Technical Innovation:**
-- Real-time anomaly detection using Isolation Forest and KNN algorithms with sub-second response
-- SEC 17a-4 and FINRA 4511 compliant audit trails with automated retention policies
-- LangChain-powered agentic AI for automated incident triage and remediation workflows
-- WebSocket-enabled Next.js dashboards with FastAPI backend and real-time streaming
+**Technical Architecture:**  
+- Real-time LangChain RAG with Pinecone + HuggingFace/OpenAI integrations  
+- Turborepo orchestration across FastAPI backend, Chrome extension, and Next.js chatbot  
+- Async PostgreSQL with Alembic migrations and CI/CD automation  
+- GDPR/CCPA endpoints with JWT auth and audit tracking  
+- Observability via LangSmith, PromptLayer, OpenTelemetry  
 
-**Business Impact:** Reduces regulatory compliance overhead while enabling proactive risk management
+---
+
+### 🏦 [Financial AI Observability Platform](https://github.com/pauly7610/fin-observability)
+**Regulatory Compliance & Risk Management | Real-Time Monitoring**
+
+Comprehensive observability for financial AI systems with audit compliance.  
+
+**Highlights:**  
+- Real-time anomaly detection using Isolation Forest & KNN  
+- SEC 17a-4, FINRA 4511-compliant audit log retention  
+- Agentic AI workflows for automated remediation  
+- Next.js Dashboard + FastAPI WebSocket streaming backend  
 
 ---
 
 ### 📊 [Anomaly Detection Platform](https://github.com/pauly7610/anomaly)
-**Real-Time Financial Transaction Monitoring | Scalable ML Architecture**  
+**Real-Time Financial Transaction Monitoring | Scalable ML Architecture**
 
-Developed full-stack platform for AI-powered anomaly detection in financial transactions.
-
-**Architecture Highlights:**
-- Next.js frontend with FastAPI backend for sub-second anomaly detection
-- Advanced statistical models with automated retraining and model versioning
-- PostgreSQL with encrypted data handling and comprehensive audit logging
-- Production-ready testing, error handling, and monitoring instrumentation
+- Next.js frontend + FastAPI backend for sub-second alerting  
+- Retrainable statistical models (Isolation Forest, ARIMA)  
+- PostgreSQL encryption and advanced audit trails  
 
 ---
 
 ### 🔄 [Trading Operations Intelligence MVP](https://github.com/pauly7610/trading-ops-insight)
-**Financial Markets Data Pipeline | TypeScript + Advanced Analytics**
+**Real-Time Market Insights | Analytics Engine**
 
-Built sophisticated trading operations platform showcasing financial domain expertise.
+Advanced market pipeline MVP demonstrating trading domain intelligence.
 
 ---
 
 ### 🎯 [User Frustration Detection MVP](https://github.com/pauly7610/frustration-detection-backend)
-**Behavioral Analytics & UX Optimization | TypeScript + ML**
+**Behavioral Analytics for UX Optimization | TypeScript + ML**
 
-Developed AI-powered system for detecting user friction through clickstream analysis.
+AI-powered friction detection using session-level clickstream signals.
 
 ---
 
 ### 🎮 [Immersive Conversations](https://github.com/pauly7610/immersive-conversations)
-**LLM Dialogue Generation | JavaScript + AI**
+**LLM Dialogue Generation | JavaScript + Transformers**
 
-Created AI-driven dialogue system leveraging large language models for interactive experiences.
+Built a generative dialogue simulation system with adaptive tone and persona calibration.
 
 ---
 
 ### 🚗 [Uber Surge Prediction Backend](https://github.com/pauly7610/uber_surge_prediction_backend)
-**Go + Machine Learning | Real-Time Pricing**
+**Go + ML | Real-Time Pricing**
 
-Architected high-performance Go backend with ML models for real-time surge pricing predictions.
+High-performance backend using Go + ML models for live pricing predictions.
 
 ---
 
 ## 📊 Technical Leadership Achievements
 
-**Enterprise Platform Architecture**  
-17+ production repositories with consistent engineering practices, documentation, and CI/CD
+**Architecture Mastery**  
+17+ production deployments with cohesive CI/CD and documentation standards  
 
-**Full-Stack Engineering Excellence**  
-React, Next.js, FastAPI, Go, TypeScript across multiple domains with 85%+ test coverage
+**Full-Stack Engineering**  
+Proficient across TypeScript, Python, Go, RAG, and observability systems  
 
-**AI/ML Production Systems**  
-5+ deployed AI platforms with real-time processing, regulatory compliance, and observability  
+**Enterprise AI Systems**  
+Deployed 5+ ML workflows meeting GDPR & SEC-level compliance  
 
-**DevOps & Infrastructure Leadership**  
-Docker, Kubernetes, AWS, Terraform with automated deployment pipelines and monitoring
+**Infrastructure Expertise**  
+Docker, K8s, AWS, Terraform, and distributed orchestration pipelines  
 
-**Cross-Functional Product Delivery**  
-Led $850M platform migration with 25% utilization increase and 95% error reduction across 500K+ transactions
+**Product Delivery Impact**  
+Drove $850M migration with 95% error reduction across 500K+ daily Tx  
 
 ---
 
 ## 🛠️ Technical Stack & Architecture Expertise
 
-**AI/ML Engineering:** LLMs, RAG, LangChain, Transformers, LSTM, NLP, OpenAI APIs, HuggingFace  
-
-**Backend Architecture:** FastAPI, Go, Node.js, async SQLAlchemy, Alembic, PostgreSQL, Redis  
-
-**Frontend Platforms:** React, Next.js, TypeScript, Tailwind CSS, Chrome Extensions  
-
-**Infrastructure & DevOps:** Docker, Kubernetes, AWS, Terraform, GitHub Actions, Turborepo  
-
-**Observability & Compliance:** OpenTelemetry, Prometheus, Grafana, GDPR/CCPA, SEC compliance  
-
-**Product & Design:** Figma, PRDs, Design Systems, OKRs, A/B Testing, User Research  
+**AI/ML Engineering:** LLMs, RAG, LangChain, Transformers, NLP, OpenAI, HuggingFace  
+**Backend:** FastAPI, Go, Node.js, async SQLAlchemy, Alembic, PostgreSQL, Redis  
+**Frontend:** React, Next.js, TypeScript, Tailwind CSS, ExtJS, Chrome Extensions  
+**DevOps:** Docker, Kubernetes, AWS, Terraform, GitHub Actions, Turborepo  
+**Observability:** OpenTelemetry, Prometheus, Grafana, LangSmith, PromptLayer  
+**Compliance:** GDPR, CCPA, SEC 17a-4, FINRA 4511  
+**Product & Design:** Figma, PRDs, A/B Testing, Documentation Systems  
 
 ---
 
 ## 🏆 Product Leadership Track Record
 
-**$10M+ ARR Growth**  
-Scaled ML products through enterprise deployment at Chase with measurable business impact
-
-**Platform Engineering Leadership**  
-Directed $850M rewards platform migration with cross-functional team coordination
-
-**Fintech Innovation**  
-Founded and scaled fintech education platform from MVP to $20K MRR through technical development
-
-**Enterprise AI Deployment**  
-Delivered rental platform across 3,000 U-Haul branches with 22% resolution improvement
-
-**API Architecture Excellence**  
-Consolidated event streams reducing errors by 95% across 500K+ daily transactions
+- **$10M+ ARR growth** from deployed ML systems  
+- **$850M platform migration** with 25% feature adoption gains  
+- **5 enterprise AI deployments** improving reliability 20–40%  
+- **17 production repositories** built 0→1 with consistent testing + design  
+- **22% resolution improvement** in U-Haul rental support rollout  
 
 ---
 
 ## 🌟 What Differentiates My Approach
 
-**Technical Depth**  
-I don't just specify requirements—I architect solutions, write production code, and implement enterprise-grade systems
-
-**Product Engineering**  
-Bridge strategic product vision with hands-on technical execution, ensuring feasibility and optimal user experience  
-
-**Documentation Excellence**  
-Create comprehensive PRDs, design systems, and technical documentation that enable engineering teams to scale
-
-**Rapid Prototyping**  
-Build functional prototypes and MVPs that validate product concepts with real user feedback and technical constraints
-
-**Compliance & Risk**  
-Deep understanding of regulatory requirements (GDPR, SEC, FINRA) with production implementations
+- **Technical Depth:** I architect production systems, not prototypes  
+- **Product + Engineering Fusion:** Strategic vision grounded in code  
+- **Documentation Discipline:** PRDs, design systems, and architecture visuals  
+- **Rapid Prototyping:** Fast MVPs that validate strategy with real data  
+- **Enterprise Readiness:** Full compliance, monitoring, and scaling baked in  
 
 ---
 
 ## 📬 Let's Connect
 
-Currently exploring **senior product leadership opportunities** where I can drive AI strategy, architect scalable systems, and lead engineering teams to deliver transformational products.
-
-**LinkedIn:** [linkedin.com/in/paul-carpenter](https://www.linkedin.com/in/paul-carpenter/)  
-**Email:** Paul.Carpenter1040@gmail.com  
+📩 [Paul.Carpenter1040@gmail.com](mailto:Paul.Carpenter1040@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/paul-carpenter/)  
+🧠 [GitHub Projects](https://github.com/pauly7610?tab=repositories)  
 
 ---
 
-**🚀 Ready to architect the next generation of AI-powered products that deliver exceptional business value through technical excellence.**
+**🚀 Ready to architect the next generation of AI-powered products that deliver enterprise reliability and measurable business value.**
+
