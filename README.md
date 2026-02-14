@@ -1,7 +1,7 @@
 <div align="center">
 
 # Paul Carpenter
-### Technical Program Manager · AI Systems Architect · Platform Builder
+### Technical Program Manager · Product Manager · Platform Builder
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-paul--carpenter-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/paul-carpenter)
 [![GitHub](https://img.shields.io/badge/GitHub-pauly7610-181717?style=flat-square&logo=github)](https://github.com/pauly7610)
