@@ -1,185 +1,237 @@
-# 🚀 Technical Product Leader & AI Systems Architect
+<div align="center">
 
-**$10M+ ARR growth | 17+ production systems from 0→1 | Enterprise AI platforms with regulatory compliance**
+# Paul Carpenter
+### Technical Program Manager · AI Systems Architect · Platform Builder
 
-I'm **Paul Carpenter**, a Technical Product Leader who doesn't just strategize—I architect and build enterprise-grade AI systems.  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-paul--carpenter-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/paul-carpenter)
+[![GitHub](https://img.shields.io/badge/GitHub-pauly7610-181717?style=flat-square&logo=github)](https://github.com/pauly7610)
+[![Email](https://img.shields.io/badge/Email-Paul.Carpenter1041@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:Paul.Carpenter1041@gmail.com)
 
-Currently at **INNOgenius**, scaling contextual personalization while seeking senior product leadership roles where technical execution meets strategic vision.
+**$10M+ ARR driven · 17+ production systems shipped · Enterprise AI with regulatory compliance**
 
----
+*New York, NY*
 
-## 🎯 Core Technical Leadership
-
-**AI/ML Architecture**: Generative AI (LLMs, RAG), MLOps, Event-Driven Systems, Production Observability  
-
-**Platform Engineering**: Monorepo design, Docker orchestration, Alembic migrations, GDPR/CCPA compliance  
-
-**Business Impact**: 25% adoption increases, 95% error reduction, $850M+ platform migrations  
-
-**Team Leadership**: Cross-functional alignment across design, engineering, and data science teams  
+</div>
 
 ---
 
-## 🚀 Current Technical Focus at INNOgenius
-*September 2024 - Present*
+## About
 
-**Contextual AI Personalization**  
-Architected ML product strategy delivering 40% user engagement improvement through real-time feature optimization
+I'm a Technical Program Manager who architects and ships production-grade AI systems — not just prototypes. With 5+ years leading cross-functional teams across engineering, data science, design, and compliance, I specialize in taking complex AI initiatives from 0→1 and scaling them to enterprise deployment.
 
-**Fintech ML Pipeline Architecture**  
-Integrated LSTM and ARIMA models with event-driven design (Kafka/Redis) achieving 18% surge prediction accuracy gains
-
-**Cross-Border Commerce Platform**  
-Built multi-currency AI modules with sub-50ms responsiveness for e-commerce integrations
-
-**ML Lifecycle Infrastructure**  
-Created rapid experimentation framework using Hugging Face, OpenAI APIs, and full observability pipelines
+Currently at **INNOgenius** delivering contextual personalization at scale. Previously drove an **$850M+ platform migration at JPMorgan Chase** and founded a **fintech AI platform that reached $20K+ MRR**.
 
 ---
 
-## 🏗️ Featured Engineering & Product Portfolio
+## Featured Projects
 
-### 🧠 [AI Evaluation Platform](https://github.com/pauly7610/ai-evaluation-platform)
-**LLM Evaluation & Observability Suite | Production-Grade AI Quality Platform**
+### 🧠 EvalAI — Multi-Agent AI Orchestration & Governance Platform
 
-Architected the most advanced project yet — an enterprise-scale evaluation framework with live metrics, complete SDK coverage, and conversion-first UX.  
+> *Enterprise-grade platform for deploying, monitoring, auditing, and optimizing multi-agent AI systems with full governance and cost visibility.*
 
-**Technical Highlights:**  
-- 23-schema Drizzle ORM design powering multi-tenant architecture  
-- Auth + billing through **Autumn.js** and **better-auth**  
-- Type-safe SDK (`@evalai/sdk`) with **100% API parity** and 40+ TypeScript interfaces  
-- Edge runtime APIs using **Turso + Vercel Edge** for global low-latency evals  
-- Real-time trace capture, annotations, and LLM-as-a-Judge workflows  
-- **Interactive Playground**: demo any AI model in 30s — no signup  
-- **Quality Scoring Engine**: accuracy, safety, cost, latency metrics (0–100 + letter score)
+[![Live](https://img.shields.io/badge/Live-v0--ai--evaluation--platform--nu.vercel.app-22C55E?style=flat-square)](https://v0-ai-evaluation-platform-nu.vercel.app/)
+[![npm](https://img.shields.io/badge/npm-%40pauly4010%2Fevalai--sdk-CB3837?style=flat-square&logo=npm)](https://www.npmjs.com/package/@pauly4010/evalai-sdk)
 
-**Business Impact:**  
-Shows enterprise readiness — feature gating, observability, and automated evaluation cycles used to reduce cost per evaluation by 70%.
+**The problem:** Teams deploying multi-agent AI systems have no unified way to visualize workflows, audit decisions, track costs across providers, or enforce compliance policies — especially across regulated industries.
 
----
+**What EvalAI solves:**
 
-### 🧠 [Support Intelligence Core](https://github.com/pauly7610/support101)
-**Enterprise AI Support Platform | Full-Stack Monorepo Architecture**
+| Capability | Detail |
+|---|---|
+| 🔀 **Multi-Agent Orchestration** | Visual DAG workflows with 6 node types: agent, tool, decision, parallel, human, LLM |
+| 🔍 **Decision Auditing** | Full reasoning chains, confidence scores, and alternative path analysis |
+| 💰 **Cost Analytics** | Real-time per-workflow cost tracking across 12 models from 3 providers |
+| 🛡️ **Governance Engine** | Configurable rules with compliance presets: SOC2, GDPR, HIPAA, FINRA |
+| ⏱️ **SLA Management** | Latency, cost, and error rate thresholds with automated violation alerts |
+| 👤 **Human-in-the-Loop** | Built-in escalation and approval workflows |
+| 📊 **Agent Benchmarks** | Leaderboards and architecture comparisons |
 
-Architected production-ready customer support platform with enterprise-grade compliance and observability.  
+**How it compares:**
 
-**Technical Architecture:**  
-- Real-time LangChain RAG with Pinecone + HuggingFace/OpenAI integrations  
-- Turborepo orchestration across FastAPI backend, Chrome extension, and Next.js chatbot  
-- Async PostgreSQL with Alembic migrations and CI/CD automation  
-- GDPR/CCPA endpoints with JWT auth and audit tracking  
-- Observability via LangSmith, PromptLayer, OpenTelemetry  
+| Feature | EvalAI | LangSmith | PromptLayer | W&B |
+|---|:---:|:---:|:---:|:---:|
+| Multi-Agent Orchestration | ✅ Full DAG | ⚠️ Basic | ❌ | ⚠️ |
+| Decision Auditing | ✅ | ⚠️ Limited | ❌ | ❌ |
+| Cost Per Workflow | ✅ Real-time | ❌ | ✅ | ❌ |
+| Governance Rules | ✅ + presets | ❌ | ❌ | ❌ |
+| Human-in-the-Loop | ✅ Built-in | ❌ | ❌ | ❌ |
+| SLA Monitoring | ✅ | ❌ | ❌ | ⚠️ |
+| Compliance Presets | ✅ SOC2/GDPR/HIPAA/FINRA | ❌ | ❌ | ❌ |
 
----
+**Quick start with the SDK:**
+```typescript
+import { AIEvalClient, WorkflowTracer } from '@pauly4010/evalai-sdk';
 
-### 🏦 [Financial AI Observability Platform](https://github.com/pauly7610/fin-observability)
-**Regulatory Compliance & Risk Management | Real-Time Monitoring**
+const client = new AIEvalClient({ apiKey: process.env.EVALAI_API_KEY });
+const tracer = new WorkflowTracer(client);
 
-Comprehensive observability for financial AI systems with audit compliance.  
+await tracer.startWorkflow('Customer Support Pipeline');
 
-**Highlights:**  
-- Real-time anomaly detection using Isolation Forest & KNN  
-- SEC 17a-4, FINRA 4511-compliant audit log retention  
-- Agentic AI workflows for automated remediation  
-- Next.js Dashboard + FastAPI WebSocket streaming backend  
+await tracer.recordDecision({
+  agent: 'RouterAgent',
+  type: 'route',
+  chosen: 'technical_support',
+  alternatives: [{ action: 'billing', confidence: 0.2 }],
+  confidence: 85
+});
 
----
+await tracer.recordCost({ provider: 'openai', model: 'gpt-4', inputTokens: 500, outputTokens: 200 });
+await tracer.endWorkflow({ resolution: 'Issue resolved' });
+```
 
-### 📊 [Anomaly Detection Platform](https://github.com/pauly7610/anomaly)
-**Real-Time Financial Transaction Monitoring | Scalable ML Architecture**
-
-- Next.js frontend + FastAPI backend for sub-second alerting  
-- Retrainable statistical models (Isolation Forest, ARIMA)  
-- PostgreSQL encryption and advanced audit trails  
-
----
-
-### 🔄 [Trading Operations Intelligence MVP](https://github.com/pauly7610/trading-ops-insight)
-**Real-Time Market Insights | Analytics Engine**
-
-Advanced market pipeline MVP demonstrating trading domain intelligence.
+**Framework integrations:** LangChain (TypeScript) · CrewAI (Python) · REST API · TypeScript SDK
 
 ---
 
-### 🎯 [User Frustration Detection MVP](https://github.com/pauly7610/frustration-detection-backend)
-**Behavioral Analytics for UX Optimization | TypeScript + ML**
+### 🤖 Support Intelligence Core (SIC) — LLM-Powered Customer Support Platform
 
-AI-powered friction detection using session-level clickstream signals.
+> *Modular, production-ready customer support platform with RAG, multi-model AI, agent orchestration, and a 4-layer continuous learning architecture.*
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-pauly7610%2Fsupport101-181717?style=flat-square&logo=github)](https://github.com/pauly7610/support101)
 
-### 🎮 [Immersive Conversations](https://github.com/pauly7610/immersive-conversations)
-**LLM Dialogue Generation | JavaScript + Transformers**
+**The problem:** Enterprise support teams need AI that gets smarter over time — not a static chatbot. SIC is a full platform: multi-model RAG, 9 specialized agent blueprints, human-in-the-loop review, voice I/O, and a continuous learning loop that improves with every resolved ticket.
 
-Built a generative dialogue simulation system with adaptive tone and persona calibration.
+**Architecture:**
 
----
+```
+Frontend (Next.js 15 + Chrome Extension)
+         │ Vercel AI SDK streaming / WebSocket
+FastAPI Backend (Port 8000)
+  ├── RAG Engine      → Multi-model: OpenAI, Claude, Gemini, Ollama
+  ├── Agent Framework → 9 blueprints, tool calling, HITL
+  ├── Voice I/O       → Whisper STT + OpenAI TTS
+  ├── A2A Protocol    → JSON-RPC 2.0 agent interoperability
+  └── MCP Server      → 8 tools for IDE/editor integration
+         │
+Infrastructure: PostgreSQL 16 · Redis 7 · Pinecone v3 · Apache AGE · Docker
+```
 
-### 🚗 [Uber Surge Prediction Backend](https://github.com/pauly7610/uber_surge_prediction_backend)
-**Go + ML | Real-Time Pricing**
+**Continuous Learning — 4-layer system (no fine-tuning required):**
 
-High-performance backend using Go + ML models for live pricing predictions.
+| Layer | Technology | Purpose |
+|---|---|---|
+| Feedback Loop | Pinecone | HITL outcomes → golden paths for future RAG |
+| Activity Stream | Redis Streams | Durable event sourcing for all agent actions |
+| Activity Graph | Apache AGE | Knowledge graph: Customer → Ticket → Resolution → Agent |
+| Playbook Engine | LangGraph | Auto-generated resolution workflows (triggers at 3+ successes) |
 
----
+> Every layer degrades gracefully: no Redis → in-memory fallback. No AGE → memory. No LangGraph → sequential.
 
-## 📊 Technical Leadership Achievements
+**Key capabilities:**
+- **9 agent blueprints:** support, triage, data analyst, code review, QA test, knowledge manager, sentiment monitor, onboarding, compliance auditor
+- **Pinecone v3** with bge-reranker-v2-m3 reranking, metadata filtering, namespace isolation, GDPR-compliant deletion
+- **Full observability:** OpenTelemetry tracing (Traceloop SDK), Prometheus metrics, Sentry error monitoring with automatic PII scrubbing
+- **Multi-tenant RBAC** with JWT auth, per-endpoint rate limiting, and audit logging
+- **197 backend tests** across 30 files · **Cypress E2E** across 10 spec files
 
-**Architecture Mastery**  
-17+ production deployments with cohesive CI/CD and documentation standards  
-
-**Full-Stack Engineering**  
-Proficient across TypeScript, Python, Go, RAG, and observability systems  
-
-**Enterprise AI Systems**  
-Deployed 5+ ML workflows meeting GDPR & SEC-level compliance  
-
-**Infrastructure Expertise**  
-Docker, K8s, AWS, Terraform, and distributed orchestration pipelines  
-
-**Product Delivery Impact**  
-Drove $850M migration with 95% error reduction across 500K+ daily Tx  
-
----
-
-## 🛠️ Technical Stack & Architecture Expertise
-
-**AI/ML Engineering:** LLMs, RAG, LangChain, Transformers, NLP, OpenAI, HuggingFace  
-**Backend:** FastAPI, Go, Node.js, async SQLAlchemy, Alembic, PostgreSQL, Redis  
-**Frontend:** React, Next.js, TypeScript, Tailwind CSS, ExtJS, Chrome Extensions  
-**DevOps:** Docker, Kubernetes, AWS, Terraform, GitHub Actions, Turborepo  
-**Observability:** OpenTelemetry, Prometheus, Grafana, LangSmith, PromptLayer  
-**Compliance:** GDPR, CCPA, SEC 17a-4, FINRA 4511  
-**Product & Design:** Figma, PRDs, A/B Testing, Documentation Systems  
+**Tech stack:** FastAPI · Next.js 15 · React 19 · LangChain · Pinecone v3 · PostgreSQL 16 · Redis 7 · Apache AGE · OpenTelemetry · Docker
 
 ---
 
-## 🏆 Product Leadership Track Record
+### 📊 Financial AI Observability Platform — Real-Time Anomaly Detection & Compliance
 
-- **$10M+ ARR growth** from deployed ML systems  
-- **$850M platform migration** with 25% feature adoption gains  
-- **5 enterprise AI deployments** improving reliability 20–40%  
-- **17 production repositories** built 0→1 with consistent testing + design  
-- **22% resolution improvement** in U-Haul rental support rollout  
+> *Production compliance platform answering three questions regulated AI teams struggle with: Why did the model flag this? Is it still working? Who approved what, and when?*
+
+[![Live](https://img.shields.io/badge/Live-fin--observability--production.up.railway.app-22C55E?style=flat-square)](https://fin-observability-production.up.railway.app)
+[![Grafana](https://img.shields.io/badge/Grafana-Live_Dashboard-F46800?style=flat-square&logo=grafana)](https://fin-observability-production.up.railway.app)
+
+**The problem:** AI models in financial services make high-stakes decisions — fraud flags, transaction blocks, compliance escalations. Most teams have zero visibility into *why* the model decided, *whether* it's drifting, or *who* approved what override.
+
+**End-to-end decision chain:**
+
+```
+Transaction arrives
+       │
+       ▼
+ML Ensemble (IF + PCA-Autoencoder)    →    anomaly score + SHAP explanation
+       │
+       ▼
+LLM Agent (LangChain)                 →    recommendation + reasoning
+       │
+       ▼
+Human Review (RBAC dashboard)         →    final decision + audit log
+       │
+       ▼
+OpenTelemetry → Grafana Cloud         →    every step traced, linked, queryable
+```
+
+**Key capabilities:**
+
+| Capability | Detail |
+|---|---|
+| 🔬 **Explainability** | SHAP TreeExplainer generates per-prediction feature importance as waterfall charts |
+| 📉 **Drift Detection** | PSI + KS tests on sliding window; retraining auto-triggers at threshold breach |
+| 🔁 **A/B Testing** | Chi-squared significance testing with hash-based traffic routing |
+| 👥 **RBAC** | 4 roles (admin/compliance/analyst/viewer) · 25 fine-grained permissions |
+| 📋 **Audit Trail** | Full chain: inference → agent reasoning → human decision. PII hashed. 7-year retention |
+| 📡 **Webhook System** | Inbound (10K tx/request) · SSE stream · outbound callbacks (3x retry + DLQ) · scheduled pull |
+| 🤖 **MCP Server** | 9 tools — connect Claude Desktop, Cursor, or Windsurf directly to the compliance engine |
+
+**Regulatory alignment:** SEC 17a-4 · FINRA 4511
+
+**Connect any AI agent via MCP:**
+```json
+{
+  "mcpServers": {
+    "fin-observability": {
+      "url": "https://fin-observability-production.up.railway.app/mcp",
+      "transport": "streamable-http"
+    }
+  }
+}
+```
+
+**Available MCP tools:** `check_transaction_compliance` · `explain_transaction` · `batch_check_compliance` (up to 10K) · `analyze_portfolio` · `ingest_transactions` · `get_compliance_metrics` · `list_incidents` · `get_drift_status` · `get_model_leaderboard`
+
+**Tech stack:** FastAPI · scikit-learn · ONNX Runtime · SHAP · LangChain · Next.js 16 · OpenTelemetry · Grafana Cloud · PostgreSQL · Redis · Railway · Pulumi
+
+**Test coverage:** 122 backend tests · 35 frontend tests · GitHub Actions CI
 
 ---
 
-## 🌟 What Differentiates My Approach
+## Technical Program Management
 
-- **Technical Depth:** I architect production systems, not prototypes  
-- **Product + Engineering Fusion:** Strategic vision grounded in code  
-- **Documentation Discipline:** PRDs, design systems, and architecture visuals  
-- **Rapid Prototyping:** Fast MVPs that validate strategy with real data  
-- **Enterprise Readiness:** Full compliance, monitoring, and scaling baked in  
+Beyond building, I specialize in **coordinating the people and processes** that ship complex AI systems at scale:
 
----
-
-## 📬 Let's Connect
-
-📩 [Paul.Carpenter1040@gmail.com](mailto:Paul.Carpenter1040@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/paul-carpenter/)  
-🧠 [GitHub Projects](https://github.com/pauly7610?tab=repositories)  
+- **Program governance** — OKRs, risk registers, dependency mapping, stakeholder alignment across engineering, legal, compliance, and design
+- **ML lifecycle management** — From experimentation frameworks to production release, including bias detection and model interpretability review
+- **Enterprise compliance delivery** — Coordinating SOC2, GDPR, HIPAA, FINRA controls across regulatory, security, and engineering teams
+- **Cross-functional execution** — Led $850M+ platform migration at JPMorgan Chase; aligned 4+ engineering squads, legal, compliance, and UX simultaneously
 
 ---
 
-**🚀 Ready to architect the next generation of AI-powered products that deliver enterprise reliability and measurable business value.**
+## Tech Stack
+
+```
+AI/ML          LLMs · RAG · LangChain · Hugging Face · SHAP · Isolation Forest · ONNX · OpenAI · Anthropic
+Backend        FastAPI · Go · Node.js · PostgreSQL · Redis · SQLAlchemy · Alembic
+Frontend       Next.js · React · TypeScript · Tailwind CSS · Chrome Extensions
+DevOps         Docker · Kubernetes · AWS · Railway · Vercel · GitHub Actions · Pulumi
+Observability  OpenTelemetry · Prometheus · Grafana · Sentry · LangSmith
+Compliance     GDPR · CCPA · SOC2 · HIPAA · FINRA 4511 · SEC 17a-4
+PM Tooling     Jira · Confluence · Figma · PRDs · Architecture Diagrams
+```
+
+---
+
+## Impact
+
+| Metric | Result |
+|---|---|
+| ARR Growth | $10M+ from deployed ML products |
+| Platform Migration | $850M+ rewards platform · 25% utilization increase · +5 NPS |
+| Error Reduction | 95% across 500K+ daily transactions |
+| Support Savings | $2M+ annually via NLP resolution accuracy |
+| Production Repositories | 17+ shipped 0→1 with CI/CD and documentation |
+| User Engagement | 40% improvement via contextual AI personalization |
+
+---
+
+<div align="center">
+
+**Open to Senior TPM and AI Product Leadership roles in New York or remote.**
+
+[paul.carpenter1041@gmail.com](mailto:paul.carpenter1041@gmail.com) · [LinkedIn](https://linkedin.com/in/paul-carpenter) · [GitHub](https://github.com/pauly7610)
+
+</div>
 
