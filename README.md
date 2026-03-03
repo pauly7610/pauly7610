@@ -17,7 +17,7 @@
 
 ## About
 
-I'm a Technical Program Manager who architects and ships production-grade AI systems — not just prototypes. With 5+ years leading cross-functional teams across engineering, data science, design, and compliance, I specialize in taking complex AI initiatives from 0→1 and scaling them to enterprise deployment.
+I'm a Technical Product/Program Manager who architects and ships production-grade AI systems — not just prototypes. With 5+ years leading cross-functional teams across engineering, data science, design, and compliance, I specialize in taking complex AI initiatives from 0→1 and scaling them to enterprise deployment.
 
 Currently at **INNOgenius** delivering contextual personalization at scale. Previously drove an **$850M+ platform migration at JPMorgan Chase** and founded a **fintech AI platform that reached $20K+ MRR**.
 
@@ -25,61 +25,37 @@ Currently at **INNOgenius** delivering contextual personalization at scale. Prev
 
 ## Featured Projects
 
-### 🧠 EvalAI — Multi-Agent AI Orchestration & Governance Platform
+## 🧠 EvalGate — CI for AI Behavior
 
-> *Enterprise-grade platform for deploying, monitoring, auditing, and optimizing multi-agent AI systems with full governance and cost visibility.*
+**Stop LLM regressions in CI in 2 minutes.**  
+Turns AI evaluations into real merge-blocking gates.
 
-[![Live](https://img.shields.io/badge/Live-v0--ai--evaluation--platform--nu.vercel.app-22C55E?style=flat-square)](https://v0-ai-evaluation-platform-nu.vercel.app/)
-[![npm](https://img.shields.io/badge/npm-%40pauly4010%2Fevalai--sdk-CB3837?style=flat-square&logo=npm)](https://www.npmjs.com/package/@pauly4010/evalai-sdk)
+---
 
-**The problem:** Teams deploying multi-agent AI systems have no unified way to visualize workflows, audit decisions, track costs across providers, or enforce compliance policies — especially across regulated industries.
+### The Problem
 
-**What EvalAI solves:**
+LLMs drift silently.  
+Prompt tweaks, model swaps, or retrieval changes degrade quality — and traditional CI won’t catch it.
 
-| Capability | Detail |
-|---|---|
-| 🔀 **Multi-Agent Orchestration** | Visual DAG workflows with 6 node types: agent, tool, decision, parallel, human, LLM |
-| 🔍 **Decision Auditing** | Full reasoning chains, confidence scores, and alternative path analysis |
-| 💰 **Cost Analytics** | Real-time per-workflow cost tracking across 12 models from 3 providers |
-| 🛡️ **Governance Engine** | Configurable rules with compliance presets: SOC2, GDPR, HIPAA, FINRA |
-| ⏱️ **SLA Management** | Latency, cost, and error rate thresholds with automated violation alerts |
-| 👤 **Human-in-the-Loop** | Built-in escalation and approval workflows |
-| 📊 **Agent Benchmarks** | Leaderboards and architecture comparisons |
+---
 
-**How it compares:**
+### What It Does
 
-| Feature | EvalAI | LangSmith | PromptLayer | W&B |
-|---|:---:|:---:|:---:|:---:|
-| Multi-Agent Orchestration | ✅ Full DAG | ⚠️ Basic | ❌ | ⚠️ |
-| Decision Auditing | ✅ | ⚠️ Limited | ❌ | ❌ |
-| Cost Per Workflow | ✅ Real-time | ❌ | ✅ | ❌ |
-| Governance Rules | ✅ + presets | ❌ | ❌ | ❌ |
-| Human-in-the-Loop | ✅ Built-in | ❌ | ❌ | ❌ |
-| SLA Monitoring | ✅ | ❌ | ❌ | ⚠️ |
-| Compliance Presets | ✅ SOC2/GDPR/HIPAA/FINRA | ❌ | ❌ | ❌ |
+- 🚦 **Regression Gate** — Blocks PRs when evals regress  
+- 🔎 **Spec Discovery + Impact Analysis** — Auto-detects and runs only what changed  
+- 🧠 **Drift Detection** — Classifies prompt / retrieval / safety regressions  
+- 📊 **Three-Layer Scoring** — Reasoning · Action · Outcome  
+- 🧑‍⚖️ **LLM Judge + Multi-Judge** — 6 aggregation strategies  
+- 🧵 **Trace + Cost Tracking** — Tokens, latency, cost per run  
+- 🛡️ **Baseline Governance** — Anti-cheat protections + CI enforcement  
 
-**Quick start with the SDK:**
-```typescript
-import { AIEvalClient, WorkflowTracer } from '@pauly4010/evalai-sdk';
+---
 
-const client = new AIEvalClient({ apiKey: process.env.EVALAI_API_KEY });
-const tracer = new WorkflowTracer(client);
+### Quick Start
 
-await tracer.startWorkflow('Customer Support Pipeline');
-
-await tracer.recordDecision({
-  agent: 'RouterAgent',
-  type: 'route',
-  chosen: 'technical_support',
-  alternatives: [{ action: 'billing', confidence: 0.2 }],
-  confidence: 85
-});
-
-await tracer.recordCost({ provider: 'openai', model: 'gpt-4', inputTokens: 500, outputTokens: 200 });
-await tracer.endWorkflow({ resolution: 'Issue resolved' });
-```
-
-**Framework integrations:** LangChain (TypeScript) · CrewAI (Python) · REST API · TypeScript SDK
+```bash
+npx @evalgate/sdk init
+git push
 
 ---
 
