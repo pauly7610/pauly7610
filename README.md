@@ -23,51 +23,50 @@ Currently at **INNOgenius** delivering contextual personalization at scale. Prev
 
 ---
 
-## Featured Projects
-
-## 🧠 EvalGate — CI for AI Behavior
-
-**Stop LLM regressions in CI in 2 minutes.**  
-Turns AI evaluations into real merge-blocking gates.
+# Featured Projects
 
 ---
+
+## EvalGate — CI for AI Behavior  
+**https://www.evalgate.com**
+
+Stop LLM regressions in CI in 2 minutes.  
+Turns AI evaluations into real merge-blocking gates.
 
 ### The Problem
 
-LLMs drift silently.  
-Prompt tweaks, model swaps, or retrieval changes degrade quality — and traditional CI won’t catch it.
-
----
+LLMs drift silently. Prompt tweaks, model swaps, or retrieval changes degrade quality — and traditional CI won’t catch it.
 
 ### What It Does
 
-- 🚦 **Regression Gate** — Blocks PRs when evals regress  
-- 🔎 **Spec Discovery + Impact Analysis** — Auto-detects and runs only what changed  
-- 🧠 **Drift Detection** — Classifies prompt / retrieval / safety regressions  
-- 📊 **Three-Layer Scoring** — Reasoning · Action · Outcome  
-- 🧑‍⚖️ **LLM Judge + Multi-Judge** — 6 aggregation strategies  
-- 🧵 **Trace + Cost Tracking** — Tokens, latency, cost per run  
-- 🛡️ **Baseline Governance** — Anti-cheat protections + CI enforcement  
-
----
+- Regression Gate — Blocks PRs when evals regress  
+- Spec Discovery + Impact Analysis — Auto-detects and runs only what changed  
+- Drift Detection — Classifies prompt / retrieval / safety regressions  
+- Three-Layer Scoring — Reasoning · Action · Outcome  
+- LLM Judge + Multi-Judge — 6 aggregation strategies  
+- Trace + Cost Tracking — Tokens, latency, cost per run  
+- Baseline Governance — Anti-cheat protections + CI enforcement  
 
 ### Quick Start
 
 ```bash
 npx @evalgate/sdk init
 git push
+```
 
 ---
 
-### 🤖 Support Intelligence Core (SIC) — LLM-Powered Customer Support Platform
+## Support Intelligence Core (SIC) — LLM-Powered Customer Support Platform
 
-> *Modular, production-ready customer support platform with RAG, multi-model AI, agent orchestration, and a 4-layer continuous learning architecture.*
+Modular, production-ready customer support platform with RAG, multi-model AI, agent orchestration, and a 4-layer continuous learning architecture.
 
-[![GitHub](https://img.shields.io/badge/GitHub-pauly7610%2Fsupport101-181717?style=flat-square&logo=github)](https://github.com/pauly7610/support101)
+Repository: https://github.com/pauly7610/support101
 
-**The problem:** Enterprise support teams need AI that gets smarter over time — not a static chatbot. SIC is a full platform: multi-model RAG, 9 specialized agent blueprints, human-in-the-loop review, voice I/O, and a continuous learning loop that improves with every resolved ticket.
+### The Problem
 
-**Architecture:**
+Enterprise support teams need AI that gets smarter over time — not a static chatbot. SIC is a full platform: multi-model RAG, 9 specialized agent blueprints, human-in-the-loop review, voice I/O, and a continuous learning loop that improves with every resolved ticket.
+
+### Architecture
 
 ```
 Frontend (Next.js 15 + Chrome Extension)
@@ -82,110 +81,88 @@ FastAPI Backend (Port 8000)
 Infrastructure: PostgreSQL 16 · Redis 7 · Pinecone v3 · Apache AGE · Docker
 ```
 
-**Continuous Learning — 4-layer system (no fine-tuning required):**
+### Continuous Learning — 4-Layer System
 
 | Layer | Technology | Purpose |
-|---|---|---|
+|-------|------------|---------|
 | Feedback Loop | Pinecone | HITL outcomes → golden paths for future RAG |
 | Activity Stream | Redis Streams | Durable event sourcing for all agent actions |
 | Activity Graph | Apache AGE | Knowledge graph: Customer → Ticket → Resolution → Agent |
-| Playbook Engine | LangGraph | Auto-generated resolution workflows (triggers at 3+ successes) |
+| Playbook Engine | LangGraph | Auto-generated resolution workflows |
 
-> Every layer degrades gracefully: no Redis → in-memory fallback. No AGE → memory. No LangGraph → sequential.
+Key capabilities:
 
-**Key capabilities:**
-- **9 agent blueprints:** support, triage, data analyst, code review, QA test, knowledge manager, sentiment monitor, onboarding, compliance auditor
-- **Pinecone v3** with bge-reranker-v2-m3 reranking, metadata filtering, namespace isolation, GDPR-compliant deletion
-- **Full observability:** OpenTelemetry tracing (Traceloop SDK), Prometheus metrics, Sentry error monitoring with automatic PII scrubbing
-- **Multi-tenant RBAC** with JWT auth, per-endpoint rate limiting, and audit logging
-- **197 backend tests** across 30 files · **Cypress E2E** across 10 spec files
+- 9 agent blueprints  
+- Pinecone v3 with reranking and metadata filtering  
+- OpenTelemetry tracing, Prometheus metrics, Sentry monitoring  
+- Multi-tenant RBAC with JWT auth  
+- 197 backend tests · Cypress E2E  
 
-**Tech stack:** FastAPI · Next.js 15 · React 19 · LangChain · Pinecone v3 · PostgreSQL 16 · Redis 7 · Apache AGE · OpenTelemetry · Docker
+Tech stack: FastAPI · Next.js · React · LangChain · Pinecone · PostgreSQL · Redis · Apache AGE · OpenTelemetry · Docker
 
 ---
 
-### 📊 Financial AI Observability Platform — Real-Time Anomaly Detection & Compliance
+## Financial AI Observability Platform — Real-Time Anomaly Detection & Compliance
 
-> *Production compliance platform answering three questions regulated AI teams struggle with: Why did the model flag this? Is it still working? Who approved what, and when?*
+Live: https://fin-observability-production.up.railway.app
 
-[![Live](https://img.shields.io/badge/Live-fin--observability--production.up.railway.app-22C55E?style=flat-square)](https://fin-observability-production.up.railway.app)
-[![Grafana](https://img.shields.io/badge/Grafana-Live_Dashboard-F46800?style=flat-square&logo=grafana)](https://fin-observability-production.up.railway.app)
+Production compliance platform answering three questions regulated AI teams struggle with:  
+Why did the model flag this? Is it still working? Who approved what, and when?
 
-**The problem:** AI models in financial services make high-stakes decisions — fraud flags, transaction blocks, compliance escalations. Most teams have zero visibility into *why* the model decided, *whether* it's drifting, or *who* approved what override.
-
-**End-to-end decision chain:**
+### End-to-End Decision Chain
 
 ```
 Transaction arrives
-       │
-       ▼
-ML Ensemble (IF + PCA-Autoencoder)    →    anomaly score + SHAP explanation
-       │
-       ▼
-LLM Agent (LangChain)                 →    recommendation + reasoning
-       │
-       ▼
-Human Review (RBAC dashboard)         →    final decision + audit log
-       │
-       ▼
-OpenTelemetry → Grafana Cloud         →    every step traced, linked, queryable
+       ↓
+ML Ensemble (IF + PCA-Autoencoder)
+       ↓
+LLM Agent (LangChain)
+       ↓
+Human Review (RBAC dashboard)
+       ↓
+OpenTelemetry → Grafana Cloud
 ```
 
-**Key capabilities:**
+### Key Capabilities
 
 | Capability | Detail |
-|---|---|
-| 🔬 **Explainability** | SHAP TreeExplainer generates per-prediction feature importance as waterfall charts |
-| 📉 **Drift Detection** | PSI + KS tests on sliding window; retraining auto-triggers at threshold breach |
-| 🔁 **A/B Testing** | Chi-squared significance testing with hash-based traffic routing |
-| 👥 **RBAC** | 4 roles (admin/compliance/analyst/viewer) · 25 fine-grained permissions |
-| 📋 **Audit Trail** | Full chain: inference → agent reasoning → human decision. PII hashed. 7-year retention |
-| 📡 **Webhook System** | Inbound (10K tx/request) · SSE stream · outbound callbacks (3x retry + DLQ) · scheduled pull |
-| 🤖 **MCP Server** | 9 tools — connect Claude Desktop, Cursor, or Windsurf directly to the compliance engine |
+|------------|--------|
+| Explainability | SHAP TreeExplainer per-prediction breakdown |
+| Drift Detection | PSI + KS tests with auto retraining triggers |
+| A/B Testing | Chi-squared significance testing |
+| RBAC | 4 roles · 25 fine-grained permissions |
+| Audit Trail | Full inference → reasoning → decision chain |
+| Webhooks | Inbound 10K tx/request · outbound callbacks · DLQ |
+| MCP Server | 9 tools for agent integration |
 
-**Regulatory alignment:** SEC 17a-4 · FINRA 4511
+Regulatory alignment: SEC 17a-4 · FINRA 4511
 
-**Connect any AI agent via MCP:**
-```json
-{
-  "mcpServers": {
-    "fin-observability": {
-      "url": "https://fin-observability-production.up.railway.app/mcp",
-      "transport": "streamable-http"
-    }
-  }
-}
-```
+Tech stack: FastAPI · scikit-learn · ONNX Runtime · SHAP · LangChain · Next.js · OpenTelemetry · Grafana Cloud · PostgreSQL · Redis · Railway · Pulumi
 
-**Available MCP tools:** `check_transaction_compliance` · `explain_transaction` · `batch_check_compliance` (up to 10K) · `analyze_portfolio` · `ingest_transactions` · `get_compliance_metrics` · `list_incidents` · `get_drift_status` · `get_model_leaderboard`
-
-**Tech stack:** FastAPI · scikit-learn · ONNX Runtime · SHAP · LangChain · Next.js 16 · OpenTelemetry · Grafana Cloud · PostgreSQL · Redis · Railway · Pulumi
-
-**Test coverage:** 122 backend tests · 35 frontend tests · GitHub Actions CI
+Test coverage: 122 backend tests · 35 frontend tests · GitHub Actions CI
 
 ---
 
 ## Technical Program Management
 
-Beyond building, I specialize in **coordinating the people and processes** that ship complex AI systems at scale:
+Beyond building, I coordinate the people and processes that ship complex AI systems at scale:
 
-- **Program governance** — OKRs, risk registers, dependency mapping, stakeholder alignment across engineering, legal, compliance, and design
-- **ML lifecycle management** — From experimentation frameworks to production release, including bias detection and model interpretability review
-- **Enterprise compliance delivery** — Coordinating SOC2, GDPR, HIPAA, FINRA controls across regulatory, security, and engineering teams
-- **Cross-functional execution** — Led $850M+ platform migration at JPMorgan Chase; aligned 4+ engineering squads, legal, compliance, and UX simultaneously
+- Program governance — OKRs, risk registers, dependency mapping  
+- ML lifecycle management — experimentation to production  
+- Enterprise compliance delivery — SOC2, GDPR, HIPAA, FINRA  
+- Cross-functional execution — Led $850M+ platform migration at JPMorgan Chase  
 
 ---
 
 ## Tech Stack
 
 ```
-AI/ML          LLMs · RAG · LangChain · Hugging Face · SHAP · Isolation Forest · ONNX · OpenAI · Anthropic
-Backend        FastAPI · Go · Node.js · PostgreSQL · Redis · SQLAlchemy · Alembic
-Frontend       Next.js · React · TypeScript · Tailwind CSS · Chrome Extensions
-DevOps         Docker · Kubernetes · AWS · Railway · Vercel · GitHub Actions · Pulumi
-Observability  OpenTelemetry · Prometheus · Grafana · Sentry · LangSmith
-Compliance     GDPR · CCPA · SOC2 · HIPAA · FINRA 4511 · SEC 17a-4
-PM Tooling     Jira · Confluence · Figma · PRDs · Architecture Diagrams
+AI/ML          LLMs · RAG · LangChain · SHAP · Isolation Forest · ONNX · OpenAI · Anthropic
+Backend        FastAPI · Go · Node.js · PostgreSQL · Redis
+Frontend       Next.js · React · TypeScript · Tailwind
+DevOps         Docker · AWS · Railway · Vercel · GitHub Actions · Pulumi
+Observability  OpenTelemetry · Prometheus · Grafana · Sentry
+Compliance     GDPR · SOC2 · HIPAA · FINRA 4511 · SEC 17a-4
 ```
 
 ---
@@ -193,13 +170,13 @@ PM Tooling     Jira · Confluence · Figma · PRDs · Architecture Diagrams
 ## Impact
 
 | Metric | Result |
-|---|---|
+|--------|--------|
 | ARR Growth | $10M+ from deployed ML products |
-| Platform Migration | $850M+ rewards platform · 25% utilization increase · +5 NPS |
+| Platform Migration | $850M+ rewards platform · 25% utilization increase |
 | Error Reduction | 95% across 500K+ daily transactions |
 | Support Savings | $2M+ annually via NLP resolution accuracy |
-| Production Repositories | 17+ shipped 0→1 with CI/CD and documentation |
-| User Engagement | 40% improvement via contextual AI personalization |
+| Production Repositories | 17+ shipped 0→1 |
+| Engagement Lift | 40% via contextual AI personalization |
 
 ---
 
@@ -207,7 +184,8 @@ PM Tooling     Jira · Confluence · Figma · PRDs · Architecture Diagrams
 
 **Open to Senior TPM and AI Product Leadership roles in New York or remote.**
 
-[paul.carpenter1041@gmail.com](mailto:paul.carpenter1041@gmail.com) · [LinkedIn](https://linkedin.com/in/paul-carpenter) · [GitHub](https://github.com/pauly7610)
+[paul.carpenter1041@gmail.com](mailto:paul.carpenter1041@gmail.com)  
+[LinkedIn](https://linkedin.com/in/paul-carpenter)  
+[GitHub](https://github.com/pauly7610)
 
 </div>
-
